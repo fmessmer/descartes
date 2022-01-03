@@ -7,6 +7,7 @@ find_package(catkin REQUIRED COMPONENTS
   cmake_modules
   descartes_core
   descartes_trajectory
+  eigen_conversions
   moveit_core
   moveit_ros_planning
   pluginlib
@@ -31,6 +32,7 @@ catkin_package(
     cmake_modules
     descartes_core
     descartes_trajectory
+    eigen_conversions
     moveit_core
     rosconsole_bridge
     tf
